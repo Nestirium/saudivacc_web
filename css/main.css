@@ -15,7 +15,7 @@
   background: #36454F;
   grid-template-columns: 24.48% 25.47% 50.00%;
   grid-template-rows: 10.22% 40.32% 39.24% 10.22%;
-  min-height: 100vh;
+  height: 100vh;
 }
 
 .page-header {
