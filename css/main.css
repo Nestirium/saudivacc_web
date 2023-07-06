@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.page-container {
+  display: grid;
+  background: #36454F;
+  grid-template-columns: 24.48% 25.47% 50.00%;
+  grid-template-rows: 10.22% 40.32% 39.24% 10.22%;
+  min-height: 100vh;
+}
+
+.page-header {
+  background: #29353d;
+  display: flex;
+  align-items: center;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+.page-header img {
+  width: 82px;
+  height: 88px;
+  margin-left: 62px;
+}
+
+.page-header ul {
+  margin-left: auto;
+  margin-right: 62px;
+  display: flex;
+  list-style-type: none;
+  gap: 37px;
+  align-items: center;
+  color: #FFF;
+  font-size: 26px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.tower-image-container {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.tower-image-container img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.vatmena-logo-container {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vatmena-logo-container img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.vatsim-logo-container {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vatsim-logo-container img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.splash-text-container {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 34px;
+  color: #FFF;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+.splash-text-container .title {
+  font-size: 48px;
+}
+
+.splash-text-container .subtitle {
+  font-size: 40px;
+}
+
+.aircraft-img-container {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aircraft-img-container img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.page-footer {
+  background: #29353d;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
