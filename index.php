@@ -33,8 +33,12 @@
                 <img class="img-fluid" style="width: 7%;" src="img/vACC_Logo_white_1.png" alt="VATSIM Saudi Arabia Logo">
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">Policies</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#" id="policiesDropdown" role="button"
+                 data-bs-toggle="dropdown" aria-expanded="false">Policies</a>
+              <ul class="dropdown-menu" aria-labelledby="policiesDropdown">
+                <li><a class="dropdown-item" href="/policies/VATSIM_Saudi_Arabia_GDPR_Policy_2023.pdf">GDPR Policy</a></li>
+              </ul>
             </li>
             <li class="nav-item">
               <a class="nav-link text-white" href="#">HQ</a>
@@ -100,7 +104,7 @@
   </div>
 
   <!-- Third row in the grid system !-->
-  <div class="row text-white mt-5 fs-6 fw-lighter justify-content-center align-items-center flex-grow-1 bg-dark">
+  <div class="row text-white fs-6 fw-lighter justify-content-center align-items-center flex-grow-1 bg-dark">
     <div class="col-md-5">
       © VATSIM Saudi Arabia Technology Department <?php echo date('Y'); ?> - All rights reserved - techsupport@saudivacc.net
     </div>
