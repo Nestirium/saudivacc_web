@@ -29,7 +29,7 @@
       <nav class="navbar navbar-expand-md align-content-center">
           <ul class="navbar-nav align-items-center fs-5">
             <li class="nav-item">
-              <a class="navbar-brand nav-link" href="#">
+              <a class="navbar-brand nav-link" href="/">
                 <img class="img-fluid" style="width: 7%;" src="img/vACC_Logo_white_1.png" alt="VATSIM Saudi Arabia Logo">
               </a>
             </li>
@@ -44,7 +44,7 @@
               <a class="nav-link text-white" href="#">HQ</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">Staff</a>
+              <a class="nav-link text-white" href="/staff">Staff</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-white" href="#">Charts</a>
