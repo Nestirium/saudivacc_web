@@ -2,65 +2,27 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <title>VATSIM Saudi Arabia</title>
-  <meta name="description" content="The official VATSIM Saudi Arabia website.">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <?php include 'commons/metas.php'; ?>
+
+  <title>VATSIM Saudi Arabia</title>
+
+  <meta name="description" content="The official VATSIM Saudi Arabia website.">
   <meta property="og:title" content="VATSIM Saudi Arabia">
   <meta property="og:type" content="">
   <meta property="og:url" content="">
   <meta property="og:image" content="">
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
 </head>
 
-<body>
-<!-- The mother container !-->
-<div class="container-fluid bg-dark bg-gradient min-vh-100 d-flex" style="flex-direction: column;justify-content: space-between;">
+<body class="bg-dark">
 
-  <!-- First row in the grid system !-->
-  <div class="row bg-dark">
-    <!-- The row contains 1 column that spans the whole 12 units in the grid !-->
-    <div class="col-md-12">
-      <!-- The column contains a navbar using <nav> html element for SEO !-->
-      <nav class="navbar navbar-expand-md align-content-center">
-          <ul class="navbar-nav align-items-center fs-5">
-            <li class="nav-item">
-              <a class="navbar-brand nav-link" href="/">
-                <img class="img-fluid" style="width: 7%;" src="img/vACC_Logo_white_1.png" alt="VATSIM Saudi Arabia Logo">
-              </a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle text-white" href="#" id="policiesDropdown" role="button"
-                 data-bs-toggle="dropdown" aria-expanded="false">Policies</a>
-              <ul class="dropdown-menu" aria-labelledby="policiesDropdown">
-                <li><a class="dropdown-item" href="/policies/VATSIM_Saudi_Arabia_GDPR_Policy_2023.pdf">GDPR Policy</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">HQ</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="/staff">Staff</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">Charts</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">Support</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">Login</a>
-            </li>
-          </ul>
-        </nav>
-    </div>
-  </div>
+<!-- Header !-->
+  <?php include 'commons/header.php'; ?>
 
-  <!-- Second row in the grid system !-->
+<!-- The body !-->
+<div class="container-fluid">
+
   <div class="row mt-5">
 
     <div class="col-md-4" style="padding-left: 0;">
@@ -103,14 +65,10 @@
     </div>
   </div>
 
-  <!-- Third row in the grid system !-->
-  <div class="row text-white fs-6 fw-lighter justify-content-center align-items-center flex-grow-1 bg-dark">
-    <div class="col-md-5">
-      © VATSIM Saudi Arabia Technology Department <?php echo date('Y'); ?> - All rights reserved - techsupport@saudivacc.net
-    </div>
-  </div>
-
 </div>
+
+<!-- Footer !-->
+  <?php include 'commons/footer.php'; ?>
 
 </body>
 
