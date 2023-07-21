@@ -25,7 +25,7 @@
 
   <div class="row mt-5">
 
-    <div class="col-md-4" style="padding-left: 0;">
+    <div class="col-md-4 order-last">
       <img class="img-fluid" alt="Jeddah ATC Tower" src="img/Jeddah_New_Terminal_1_05-600x900-removebg-preview.png">
     </div>
 
@@ -41,7 +41,7 @@
 
     </div>
 
-    <div class="col-md">
+    <div class="col-md order-first">
 
       <div class="row text-white fw-lighter fs-1 justify-content-center">
         <div class="col-md-5">
